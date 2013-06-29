@@ -1,0 +1,9 @@
+#!/usr/bin/env bash
+
+echo " __   __       ___               ___"
+echo "/  \` /  \ |\ |  |  | |\ | |  | |  |  \ /"
+echo "\__, \__/ | \|  |  | | \| \__/ |  |   |"
+echo
+
+cd lib > /dev/null &&
+   python -m SimpleHTTPServer 8300
