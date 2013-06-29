@@ -5,5 +5,5 @@ echo "/  \` /  \ |\ |  |  | |\ | |  | |  |  \ /"
 echo "\__, \__/ | \|  |  | | \| \__/ |  |   |"
 echo
 
-cd lib > /dev/null &&
+cd lib/site > /dev/null &&
    python -m SimpleHTTPServer 8300
