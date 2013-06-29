@@ -1,0 +1,106 @@
+#yesno {
+   font-family: "Helvetica Neue", helvetica, arial, sans-serif;
+   font-weight: bold;
+   text-align: center;
+   margin: 1%;
+   padding: 0;
+   height: 100%;
+   width: 100%;
+   color: #333;
+   background-color: white;
+   font-size: 134px;
+   height:96%;
+   width: 97%;
+   position: relative;
+   border: 3px solid;
+   border-radius: 10px;
+   -moz-border-radius: 10px;
+}
+
+#yesno p.small {
+   font-size: 97px;
+}
+
+#yesno .metadata {
+   font-size: 60px;
+   display: block;
+   margin: 0;
+}
+
+.littleYesno #yesno {
+   font-size: 32px;
+   overflow: hidden;
+}
+
+.littleYesno #yesno p.small {
+   font-size: 17px;
+}
+
+.littleYesno #yesno .metadata {
+   font-size: 10px;
+}
+
+
+/* use a P tag for the widget, and it will be automatically sized for you */
+
+.littleYesno p#yesno {
+   width:  220px;
+   height: 133px;
+   margin: 0;
+   border-width: 1px;
+   border-radius: 5px;
+   -moz-border-radius: 5px;
+}
+
+#yesno,
+.littleYesno p#yesno {
+   -webkit-box-shadow: rgba(0, 0, 0, 0.0976562) 3px 0px 3px,
+      rgba(0, 0, 0, 0.046875) 3px -3px 0px,
+      rgba(0, 0, 0, 0.0976562) 0px 3px 0px,
+      rgba(0, 0, 0, 0.0976562) -3px 0px 3px,
+      rgba(0, 0, 0, 0.046875) -3px -3px 0px,
+      rgba(0, 0, 0, 0.148438) 0px 3px 3px;
+   -moz-box-shadow: rgba(0, 0, 0, 0.0976562) 3px 0px 3px,
+      rgba(0, 0, 0, 0.046875) 3px -3px 0px,
+      rgba(0, 0, 0, 0.0976562) 0px 3px 0px,
+      rgba(0, 0, 0, 0.0976562) -3px 0px 3px,
+      rgba(0, 0, 0, 0.046875) -3px -3px 0px,
+      rgba(0, 0, 0, 0.348438) 0px 3px 3px;
+}
+
+#yesno a {
+   color: inherit;
+   text-decoration: none;
+}
+
+#yesno p {
+   margin: 0;
+   padding: 0;
+}
+
+#yesno.red,
+#yesno.red a:link,
+#yesno.red a:visited {
+   background-color: #FEDFDF;
+   border-color: #A60000;
+   color: #333;
+   text-decoration: none;
+      }
+
+#yesno.black,
+#yesno.black a:link,
+#yesno.black a:visited {
+   background-color: #CCC;
+   border-color: black;
+   color: #333;
+   text-decoration: none;
+            }
+
+#yesno.green,
+#yesno.green a:link,
+#yesno.green a:visited {
+   background-color: #D0F4C0;
+   border-color: #2F8F00;
+   color: #333;
+   text-decoration: none;
+                  }
