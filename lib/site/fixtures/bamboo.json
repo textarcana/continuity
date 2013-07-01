@@ -1,0 +1,70 @@
+{
+  "comments": {
+    "max-result": 0,
+    "size": 0,
+    "start-index": 0
+  },
+  "vcsRevisionKey": "965459c388564e237b82b76289bb899913578630",
+  "buildDurationInSeconds": 26,
+  "id": 6750297,
+  "number": 568,
+  "key": "FROBNICATOR-CORE-568",
+  "changes": {
+    "max-result": 2,
+    "size": 2,
+    "start-index": 0
+  },
+  "labels": {
+    "max-result": 0,
+    "size": 0,
+    "start-index": 0
+  },
+  "link": {
+    "rel": "self",
+    "href": "http://example.com/rest/api/latest/result/FROBNICATOR-CORE-568"
+  },
+  "state": "Successful",
+  "continuable": false,
+  "buildStartedTime": "2013-06-28T18:29:47.001-04:00",
+  "successfulTestCount": 13,
+  "vcsRevisions": {
+    "max-result": 1,
+    "size": 1,
+    "start-index": 0
+  },
+  "buildDurationDescription": "26 seconds",
+  "prettyBuildCompletedTime": "Fri, 28 Jun, 06:30 PM",
+  "lifeCycleState": "Finished",
+  "projectName": "Frobnicator (release)",
+  "planName": "Frobnication for Widgets",
+  "failedTestCount": 0,
+  "buildReason": "<a href=\"http://example.com/browse/FROBNICATOR-CORE-568/commit\">Updated by Homer J. Simpson</a>",
+  "restartable": false,
+  "buildRelativeTime": "2 days ago",
+  "buildDuration": 26092,
+  "quarantinedTestCount": 0,
+  "buildCompletedTime": "2013-06-28T18:30:13.093-04:00",
+  "metadata": {
+    "max-result": 0,
+    "size": 0,
+    "start-index": 0
+  },
+  "stages": {
+    "max-result": 1,
+    "size": 1,
+    "start-index": 0
+  },
+  "artifacts": {
+    "max-result": 1,
+    "size": 1,
+    "start-index": 0
+  },
+  "prettyBuildStartedTime": "Fri, 28 Jun, 06:29 PM",
+  "expand": "changes,metadata,vcsRevisions,artifacts,comments,labels,jiraIssues,stages",
+  "jiraIssues": {
+    "max-result": 0,
+    "size": 0,
+    "start-index": 0
+  },
+  "buildTestSummary": "13 passed"
+}
